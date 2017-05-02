@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NipGeneration")]
+[assembly: AssemblyTitle("NipGeneratorMap")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NipGeneration")]
+[assembly: AssemblyProduct("NipGeneratorMap")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e0f9723c-3eeb-4a10-84e4-c3b0a19f2399")]
+[assembly: Guid("26562b2a-e4f1-4c76-89e7-413ee6ba81d7")]
 
 // Version information for an assembly consists of the following four values:
 //
