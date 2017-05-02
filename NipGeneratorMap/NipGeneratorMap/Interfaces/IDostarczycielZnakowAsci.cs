@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace NipGeneratorMap.Interfaces
 {
-    public interface IGeneratorMapy
+   public interface IDostarczycielZnakowAsci
     {
-        void GenerujMape(string sciezkaPlikuWejsciowego);
+
+        string[] ZnakWysokosci();
+        string ZnakiNieokreslonejWysokosci();
     }
 }

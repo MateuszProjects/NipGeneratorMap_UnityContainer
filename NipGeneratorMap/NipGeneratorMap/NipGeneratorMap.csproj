@@ -54,11 +54,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\DostarczycielZnakow.cs" />
+    <Compile Include="Classes\GeneratorKonsolowyMapy.cs" />
     <Compile Include="Classes\KonwerterWysokosciNaZnak.cs" />
     <Compile Include="Classes\KonwerterZnakuNaWysokoscAcme.cs" />
     <Compile Include="Classes\KonwerterZnakuNaWysokoscMapex.cs" />
     <Compile Include="Classes\Wysokosci.cs" />
     <Compile Include="Interfaces\IDostarczycielWysokosci.cs" />
+    <Compile Include="Interfaces\IDostarczycielZnakowAsci.cs" />
     <Compile Include="Interfaces\IGeneratorMapy.cs" />
     <Compile Include="Interfaces\IKonwerterWysokosciNaZnak.cs" />
     <Compile Include="Interfaces\IKonwerterZnakuNaWysokosc.cs" />
