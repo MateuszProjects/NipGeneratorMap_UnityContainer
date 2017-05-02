@@ -1,4 +1,5 @@
 ﻿using Microsoft.Practices.Unity;
+using NipGeneratorMap.Classes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +14,15 @@ namespace NipGeneratorMap
         {
             var container = new UnityContainer();
 
-            container.RegisterType<Interfaces.IGeneratorMapy, Classes.GeneratorKonsolowyMapy>();
+            container.RegisterType<Interfaces.IGeneratorMapy, GeneratorKonsolowyMapy>();
+            container.RegisterType<Interfaces.IKonwerterWysokosciNaZnak, KonwerterWysokosciNaZnak>();
+            container.RegisterType<Interfaces.IKonwerterZnakuNaWysokosc, KonwerterZnakuNaWysokoscAcme>();
+            container.RegisterType<Interfaces.IDostarczycielWysokosci, PlikowyDostarczycielWysokosci>();
+            container.RegisterType<Interfaces.IDostarczycielZnakowAsci, DostarczycielZnakow>();
 
+            var generator = container.Resolve<Interfaces.IGeneratorMapy>();
+            generator.GenerujMape(@"MapyAcme\Mapa2.txt");
+            Console.ReadKey();
         }
     }
 }

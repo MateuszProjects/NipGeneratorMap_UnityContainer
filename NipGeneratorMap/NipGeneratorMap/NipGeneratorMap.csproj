@@ -59,6 +59,7 @@
     <Compile Include="Classes\KonwerterWysokosciNaZnak.cs" />
     <Compile Include="Classes\KonwerterZnakuNaWysokoscAcme.cs" />
     <Compile Include="Classes\KonwerterZnakuNaWysokoscMapex.cs" />
+    <Compile Include="Classes\PlikowyDostarczycielWysokosci.cs" />
     <Compile Include="Classes\Wysokosci.cs" />
     <Compile Include="Interfaces\IDostarczycielWysokosci.cs" />
     <Compile Include="Interfaces\IDostarczycielZnakowAsci.cs" />
