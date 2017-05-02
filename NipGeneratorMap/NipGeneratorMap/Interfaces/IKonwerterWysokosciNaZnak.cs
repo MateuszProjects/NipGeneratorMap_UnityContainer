@@ -8,5 +8,6 @@ namespace NipGeneratorMap.Interfaces
 {
     public interface IKonwerterWysokosciNaZnak
     {
+        string WysokoscNaZnak(int wartoscWysokosci);
     }
 }

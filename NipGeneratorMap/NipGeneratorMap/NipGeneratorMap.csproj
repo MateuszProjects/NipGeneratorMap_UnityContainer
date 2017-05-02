@@ -54,6 +54,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\KonwerterWysokosciNaZnak.cs" />
+    <Compile Include="Classes\KonwerterZnakuNaWysokoscAcme.cs" />
+    <Compile Include="Classes\KonwerterZnakuNaWysokoscMapex.cs" />
+    <Compile Include="Classes\Wysokosci.cs" />
     <Compile Include="Interfaces\IDostarczycielWysokosci.cs" />
     <Compile Include="Interfaces\IGeneratorMapy.cs" />
     <Compile Include="Interfaces\IKonwerterWysokosciNaZnak.cs" />
@@ -65,9 +69,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="MapyAcme\Mapa1.txt" />
     <Content Include="MapyAcme\Mapa2.txt" />
