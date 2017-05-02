@@ -11,7 +11,10 @@ namespace NipGeneratorMap
     {
         static void Main(string[] args)
         {
-            var unity = new UnityContainer();
+            var container = new UnityContainer();
+
+            container.RegisterType<Interfaces.IGeneratorMapy, Classes.GeneratorKonsolowyMapy>();
+
         }
     }
 }
