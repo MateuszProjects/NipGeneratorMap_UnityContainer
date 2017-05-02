@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace NipGeneratorMap.Interfaces
 {
-    public interface IDostarczycielWysokosci
+    public class IGeneratorMapy
     {
-        int[][] Wysokosci(string sciezkaPlikuWejsciowego);
     }
 }

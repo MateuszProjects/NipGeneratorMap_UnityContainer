@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace NipGeneratorMap.Interfaces
 {
-    public interface IDostarczycielWysokosci
+   public interface IKonwerterZnakuNaWysokosc
     {
-        int[][] Wysokosci(string sciezkaPlikuWejsciowego);
+        int ZnakNaWysokosc(char znak);
     }
 }
