@@ -20,7 +20,16 @@ namespace NipGeneratorMap.Classes
 
         public void GenerujMape(string sciezkaPlikuWejsciowego)
         {
-            throw new NotImplementedException();
+            var wysokosci = _dostarczyciel.Wysokosci(sciezkaPlikuWejsciowego);
+
+            for(int i=0; i<wysokosci.Length; i++)
+            {
+                for(int j=0; j < wysokosci[i].Length; j++)
+                {
+                    Console.Write(_konwerter.WysokoscNaZnak(wysokosci[i][j]));
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
