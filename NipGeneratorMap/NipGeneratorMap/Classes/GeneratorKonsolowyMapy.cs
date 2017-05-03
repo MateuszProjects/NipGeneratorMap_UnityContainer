@@ -1,13 +1,13 @@
-﻿using NipGeneratorMap.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NipGeneratorMap.Interfaces;
 
-namespace NipGeneratorMap.Classes
+namespace NipGeneratorMap
 {
-    public class GeneratorKonsolowyMapy : Interfaces.IGeneratorMapy
+    public class GeneratorKonsolowyMapy : IGeneratorMapy
     {
         private IKonwerterWysokosciNaZnak _konwerter;
         private IDostarczycielWysokosci _dostarczyciel;
@@ -22,9 +22,9 @@ namespace NipGeneratorMap.Classes
         {
             var wysokosci = _dostarczyciel.Wysokosci(sciezkaPlikuWejsciowego);
 
-            for(int i=0; i<wysokosci.Length; i++)
+            for (int i = 0; i < wysokosci.Length; i++)
             {
-                for(int j=0; j < wysokosci[i].Length; j++)
+                for (int j = 0; j < wysokosci[i].Length; j++)
                 {
                     Console.Write(_konwerter.WysokoscNaZnak(wysokosci[i][j]));
                 }

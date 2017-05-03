@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NipGeneratorMap.Interfaces
+namespace NipGeneratorMap
 {
-    public interface IKonwerterZnakuNaWysokosc
+    class Model
     {
-        int ZnakNaWysokosc(char znak);
     }
 }
